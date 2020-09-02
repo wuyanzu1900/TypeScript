@@ -1,0 +1,28 @@
+.top-buffer {
+    margin-top: 20px;
+}
+
+.about-page {
+    position: relative;
+    top: -20px;
+}
+
+.about-page .jumbotron {
+    margin: 0;
+    background: rgba(9, 69, 95, 0.8);
+    color: white;
+    border-radius: 0 !important;
+}
+
+
+/*React apply activeClassName to <a> element, but Bootstrap active class is over <li> element*/
+
+.navbar .nav .active,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background: #e7e7e7 !important;
+    color: #333 !important;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jc3Mvc2l0ZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7O0FBR0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsQyIsImZpbGUiOiJhcHAuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRvcC1idWZmZXIge1xyXG4gICAgbWFyZ2luLXRvcDogMjBweDtcclxufVxyXG5cclxuLmFib3V0LXBhZ2Uge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgdG9wOiAtMjBweDtcclxufVxyXG5cclxuLmFib3V0LXBhZ2UgLmp1bWJvdHJvbiB7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDksIDY5LCA5NSwgMC44KTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDAgIWltcG9ydGFudDtcclxufVxyXG5cclxuXHJcbi8qUmVhY3QgYXBwbHkgYWN0aXZlQ2xhc3NOYW1lIHRvIDxhPiBlbGVtZW50LCBidXQgQm9vdHN0cmFwIGFjdGl2ZSBjbGFzcyBpcyBvdmVyIDxsaT4gZWxlbWVudCovXHJcblxyXG4ubmF2YmFyIC5uYXYgLmFjdGl2ZSxcclxuLm5hdmJhci1kZWZhdWx0IC5uYXZiYXItbmF2Pi5hY3RpdmU+YSxcclxuLm5hdmJhci1kZWZhdWx0IC5uYXZiYXItbmF2Pi5hY3RpdmU+YTpob3ZlcixcclxuLm5hdmJhci1kZWZhdWx0IC5uYXZiYXItbmF2Pi5hY3RpdmU+YTpmb2N1cyB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjZTdlN2U3ICFpbXBvcnRhbnQ7XHJcbiAgICBjb2xvcjogIzMzMyAhaW1wb3J0YW50O1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ==*/
